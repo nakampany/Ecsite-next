@@ -9,10 +9,12 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "stripe": "^10.12.0"
+  },
   "dependencies": {
     "knex": "<0.20.0",
-    "sqlite3": "latest",
+    "sqlite3": "^5.1.2",
     "strapi": "3.4.0",
     "strapi-admin": "3.4.0",
     "strapi-connector-bookshelf": "3.4.0",
